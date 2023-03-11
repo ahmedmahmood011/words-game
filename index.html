@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet">
+  <title>Work Space</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="heading">
+      <div class="name-game">Dashed Letters</div>
+      <div class="attempt">Attempt: <span></span></div>
+      <div class="word-from">Word From: <span></span></div>
+    </div>
+    <div class="main">
+      <div id="keyboard">
+      </div>
+    </div>
+    <div class="word">
+    </div>
+    <div class="popup win">
+      <div class="background"></div>
+      <div class="content">
+        <div class="massage">Excellent, you succeeded</div>
+        <div class="re-play">Play again</div>
+      </div>
+    </div>
+    <div class="popup loser">
+      <div class="background"></div>
+      <div class="content">
+        <div class="massage">GAME OVER</div>
+        <div class="the-word">The Word : <span></span></div>
+        <div class="re-play">Play again</div>
+      </div>
+    </div>
+  </div>
+  <audio src="sound/mixkit-click-error-1110.wav" preload="auto" id="fail"></audio>
+  <audio src="sound/mixkit-video-game-mystery-alert-234.wav" preload="auto" id="accept"></audio>
+  <audio src="sound/mixkit-cheering-crowd-loud-whistle-610.wav" preload="auto" id="winSound"></audio>
+  <audio src="sound/mixkit-sad-game-over-trombone-471.wav" preload="auto" id="GameOver"></audio>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
